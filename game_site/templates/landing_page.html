@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tu Empresa</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        color: white;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .header {
+        height: 90vh;
+        background-image: url("{%  static 'img/dk.webp' %}");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #1e1e1e;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      .header h1 {
+        font-size: 3em;
+      }
+      .contenido {
+        padding: 2em;
+        background-color: rgb(112, 96, 216);
+      }
+
+      .nav {
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        background-color: #1e1e1e;
+      }
+
+      .nav > * {
+        padding-right: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <a href="/">Salir</a>
+    </div>
+    <div class="header">
+      <h1>¡Bienvenidos a Felpudo Games!</h1>
+      <!-- <img src="{%  static 'img/dk.webp' %}" alt="Image rancia"> -->
+    </div>
+    <div class="contenido">
+      <h2>Acerca de Nosotros</h2>
+      <p>Somos una empresa dedicada a la creación de una plataforma de videojuegos única y emocionante. Nuestra pasión por los videojuegos y la tecnología nos ha llevado a desarrollar un espacio donde los jugadores y los creadores pueden interactuar, compartir y disfrutar de la experiencia de juego.</p>
+      <h2>Nuestros Servicios</h2>
+      <p>Ofrecemos una variedad de servicios, incluyendo la posibilidad de subir y descargar juegos. Los desarrolladores pueden compartir sus creaciones con nuestra comunidad global, mientras que los jugadores pueden descubrir nuevos juegos para disfrutar. Además, proporcionamos soporte técnico y atención al cliente para garantizar una experiencia de usuario sin problemas.</p>
+      <h2>Contacto</h2>
+      <p>Si tienes alguna pregunta, no dudes en contactarnos. Nuestro equipo de atención al cliente está siempre dispuesto a ayudar. Ya sea que tengas una pregunta sobre cómo usar nuestra plataforma, necesites ayuda con un problema técnico o simplemente quieras darnos tu opinión, estamos aquí para escucharte. ¡Esperamos tener noticias tuyas pronto!</p>
+    </div>
+  </body>
+</html>
