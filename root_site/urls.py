@@ -23,7 +23,5 @@ urlpatterns = [
     path('', showLandingPage),
     path('login/', showLogin),
     path('logout', showLogOut),
-    path('register/', showRegister),
-    path('thanks/', showThanks),
     path('admin/', admin.site.urls),
 ]

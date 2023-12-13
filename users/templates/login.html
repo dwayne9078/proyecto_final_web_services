@@ -2,17 +2,41 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesion</title>
+    <link rel="shortcut icon" href="{% static  'favicon.ico' %}" type="image/x-icon" />
+    <link rel="stylesheet" href="{% static 'css/general.css' %}">
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
 </head>
+
 <body>
-    <form method="post" novalidate>
-        {% csrf_token %}
-        <h2>Iniciar Sesion</h2>
-        {{ form }}
-        <input type="submit" value="Iniciar Sesion">
-    </form>
+    <div class="container">
+        <form method="post" novalidate>
+            {% csrf_token %}
+            <a href="/"><ion-icon name="arrow-back-outline"></ion-icon></a>
+            <h2>
+                Iniciar Sesion
+            </h2>
+            {{ form }}
+            <input type="submit" value="Continuar">
+            <input type="reset" value="Borrar">
+            {% if messages %}
+            <div class="message">
+                <span>
+                    
+                    {% for message in messages %}
+                    {{ message }}
+                    {% endfor %}
+                </span>
+            </div>
+            {% endif %}
+        </form>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

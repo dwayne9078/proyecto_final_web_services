@@ -7,21 +7,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="{% static  'favicon.ico' %}" type="image/x-icon" />
+  <link rel="stylesheet" href="{% static 'css/general.css' %}">
   <link rel="stylesheet" href="{% static 'css/landing.css' %}">
   <title>Felpudo Games</title>
 </head>
 
 <body>
-  <div class="container" onscroll="showScrollTop()">
+  <div class="container">
     <nav>
       <div class="nav-logo">
         <a href="#inicio"></a>
       </div>
       <div class="nav-info">
         <a href="#inicio">Inicio</a>
-        <a href="#beneficios">Beneficios</a>
-        <a href="#nosotros">Nosotros</a>
-        <a href="#faq">F.A.Q</a>
+        <a href="#juegos">Juegos</a>
+        <a href="#contacto">Contacto</a>
       </div>
       <div class="nav-access">
         {% if user.is_authenticated %}
@@ -32,11 +32,56 @@
         
       </div>
     </nav>
-    <div class="banner" id="inicio"></div>
-    <div class="banner2" id="beneficios"></div>
-    <div class="banner3" id="nosotros"></div>
-    <div class="banner4" id="faq"></div>
+    <div class="banner" id="inicio">
+      <div class="inicio-info">
+        <h1>Una nueva forma de jugar</h1>
+        <h2>SOLO EN <span>FELPUDO GAMES</span></h2>
+      </div>
+    </div>
+    
+    <div class="banner2" id="juegos">
+      <h1 class="games-title">TUS Videojuegos</h1>
+      <h3 class="games-detail">En Felpudo Games podrás subir tus propias creaciones, y mostrarle al mundo tu creatividad e ingenio</h3>
+      <div class="game-info">
+        <div class="game" id="game1"></div>
+        <span>Memorama Animales</span>
+      </div>
+      <div class="game-info">
+        <div class="game" id="game2"></div>
+        <span>Juego Espacial</span>
+      </div>
+      <div class="game-info">
+        <div class="game" id="game3"></div>
+        <span>Mark's World</span>
+      </div>
+    </div>
+
+    <div class="banner3" id="contacto">
+      <div class="contactos-content">
+        <h1 class="contact-title">Contáctanos...</h1>
+        <div class="contact-info">
+          <ion-icon name="call-outline"></ion-icon>
+          <h3 id="info-title">POR TELÉFONO...</h3>
+          <h5 class="detail">(De Lunes a Viernes, 9a.m a 5p.m)</h5>
+          <span class="info">+52 123 456 7890</span>
+        </div>
+        <div class="contact-info">
+          <ion-icon name="mail-outline"></ion-icon>
+          <h3 id="info-title">POR E-MAIL...</h3>
+          <h5 class="detail">Cualquier duda o sugerencia al siguiente correo</h5>
+          <span class="info">contacto@felpudoGames.com</span>
+        </div>
+        <div class="contact-info">
+          <ion-icon name="business-outline"></ion-icon>
+          <h3 id="info-title">O VISITANOS</h3>
+          <h5 class="detail">Horario de Atencion: Lunes a Viernes de 9a.m a 5p.m</h5>
+          <span class="info">73864 Lake Avenue #721</span>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 <script src="{% static 'js/landing.script.js' %}"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
