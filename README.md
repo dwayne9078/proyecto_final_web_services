@@ -1,4 +1,4 @@
-# [Felpudo Games | Proyecto con Django]
+# Felpudo Games | Proyecto con Django
 
 ## Descripción del Proyecto
 
@@ -23,7 +23,7 @@ El objetivo principal de este proyecto fue demostrar mi capacidad para **aprende
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[dwayne7890]/[proyecto_final_web_services].git
+    git clone [https://github.com/dwayne7890/proyecto_final_web_services](https://github.com/dwayne7890/proyecto_final_web_services).git
     ```
 2.  **Entrar al directorio del proyecto:**
     ```bash
@@ -58,6 +58,6 @@ _Aquí puedes agregar más imágenes, como la página de login._
 
 ---
 
-### [Pablo Hernandez]
-
-[https://www.linkedin.com/in/pablo-hernandez-785880332/]
+### [Creado Por:]
+[Pablo Hernández]
+[Linkedin](https://www.linkedin.com/in/pablo-hernandez-785880332/)
