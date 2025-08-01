@@ -23,7 +23,7 @@ El objetivo principal de este proyecto fue demostrar mi capacidad para **aprende
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/dwayne7890/proyecto_final_web_services](https://github.com/dwayne7890/proyecto_final_web_services).git
+    git clone [https://github.com/dwayne7890/proyecto_final_web_services.git](https://github.com/dwayne7890/proyecto_final_web_services.git)
     ```
 2.  **Entrar al directorio del proyecto:**
     ```bash
@@ -53,11 +53,13 @@ El objetivo principal de este proyecto fue demostrar mi capacidad para **aprende
 ### Capturas de Pantalla
 
 ![Captura de la landing page](assets/landing.png)
-_Aquí puedes agregar más imágenes, como la página de login._
+Vista de la Landing Page
+
 ![Captura de la login page](assets/login.png)
+Vista de la Login Page
 
 ---
 
 ### [Creado Por:]
-[Pablo Hernández]
+Pablo Hernández
 [Linkedin](https://www.linkedin.com/in/pablo-hernandez-785880332/)
