@@ -60,6 +60,5 @@ Vista de la Login Page
 
 ---
 
-### Creado Por:
-Pablo Hernández
+### Pablo Hernández
 [Mi Linkedin](https://www.linkedin.com/in/pablo-hernandez-785880332/)
