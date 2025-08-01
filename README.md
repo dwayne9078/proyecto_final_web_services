@@ -1,4 +1,4 @@
-# [Nombre de tu proyecto, ej. Felpudo Games | Proyecto con Django]
+# [Felpudo Games | Proyecto con Django]
 
 ## Descripción del Proyecto
 
