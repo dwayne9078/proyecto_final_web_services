@@ -27,7 +27,7 @@ El objetivo principal de este proyecto fue demostrar mi capacidad para **aprende
     ```
 2.  **Entrar al directorio del proyecto:**
     ```bash
-    cd [proyecto_final_web_services]
+    cd proyecto_final_web_services
     ```
 3.  **Instalar las dependencias de Python:**
     ```bash
